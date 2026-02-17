@@ -1,0 +1,67 @@
+{
+  "zero_shot": [
+    { "family": "Baselines", "model": "Random", "mode": "baseline", "f1_f": null, "f1_b": null, "acc": 50.0 },
+    { "family": "Baselines", "model": "Human", "mode": "baseline", "f1_f": 99.0, "f1_b": 89.0, "acc": 89.2 },
+
+    { "family": "Open Models", "model": "Qwen2-VL-7B", "mode": "nonreasoning", "f1_f": 66.7, "f1_b": 0.0, "acc": 50.0 },
+    { "family": "Open Models", "model": "Qwen2.5VL-7B", "mode": "nonreasoning", "f1_f": 63.0, "f1_b": 19.5, "acc": 49.3 },
+    { "family": "Open Models", "model": "Qwen2.5VL-72B", "mode": "nonreasoning", "f1_f": 57.4, "f1_b": 38.2, "acc": 49.5 },
+
+    { "family": "Open Models", "model": "QVQ-72B-Preview", "mode": "reasoning", "effort": "Default", "f1_f": 66.1, "f1_b": 0.0, "acc": 49.4 },
+    { "family": "Open Models", "model": "cosmos-reason1 7B", "mode": "reasoning", "effort": "Default", "f1_f": 31.2, "f1_b": 63.3, "acc": 52.1 },
+
+    { "family": "Proprietary", "model": "GPT-4o", "mode": "nonreasoning", "f1_f": 65.4, "f1_b": 24.9, "acc": 52.6 },
+    { "family": "Proprietary", "model": "GPT-4.1", "mode": "nonreasoning", "f1_f": 62.5, "f1_b": 57.4, "acc": 60.1 },
+
+    { "family": "Proprietary", "model": "o3", "mode": "reasoning", "effort": "Medium", "f1_f": 67.2, "f1_b": 29.1, "acc": 55.2 },
+    { "family": "Proprietary", "model": "o4-mini", "mode": "reasoning", "effort": "Medium", "f1_f": 67.4, "f1_b": 33.1, "acc": 56.1 },
+    { "family": "Proprietary", "model": "GPT-5", "mode": "reasoning", "effort": "Medium", "f1_f": 68.7, "f1_b": 26.8, "acc": 56.1 },
+    { "family": "Proprietary", "model": "Gemini-2.5-pro", "mode": "reasoning", "effort": "Medium", "f1_f": 65.9, "f1_b": 51.4, "acc": 59.9 }
+  ],
+
+  "few_shot": [
+    { "family": "Open Models", "model": "Qwen2.5VL-72B", "mode": "fewshot", "shots": 0, "f1_f": 57.4, "f1_b": 38.0, "acc": 49.5 },
+    { "family": "Open Models", "model": "Qwen2.5VL-72B", "mode": "fewshot", "shots": 2, "f1_f": 64.2, "f1_b": 18.7, "acc": 50.2 },
+    { "family": "Open Models", "model": "Qwen2.5VL-72B", "mode": "fewshot", "shots": 4, "f1_f": 65.4, "f1_b": 21.1, "acc": 51.9 },
+
+    { "family": "Proprietary", "model": "GPT-4.1", "mode": "fewshot", "shots": 0, "f1_f": 62.3, "f1_b": 57.4, "acc": 60.0 },
+    { "family": "Proprietary", "model": "GPT-4.1", "mode": "fewshot", "shots": 2, "f1_f": 59.5, "f1_b": 51.7, "acc": 56.0 },
+    { "family": "Proprietary", "model": "GPT-4.1", "mode": "fewshot", "shots": 4, "f1_f": 60.0, "f1_b": 49.9, "acc": 55.5 },
+
+    { "family": "Proprietary", "model": "GPT-4o", "mode": "fewshot", "shots": 0, "f1_f": 65.4, "f1_b": 24.9, "acc": 52.6 },
+    { "family": "Proprietary", "model": "GPT-4o", "mode": "fewshot", "shots": 2, "f1_f": 66.8, "f1_b": 4.61, "acc": 50.7 },
+    { "family": "Proprietary", "model": "GPT-4o", "mode": "fewshot", "shots": 4, "f1_f": 66.5, "f1_b": 5.07, "acc": 50.7 },
+
+    { "family": "Proprietary", "model": "GPT-5", "mode": "fewshot", "shots": 0, "f1_f": 68.7, "f1_b": 26.8, "acc": 56.1 },
+    { "family": "Proprietary", "model": "GPT-5", "mode": "fewshot", "shots": 2, "f1_f": 69.5, "f1_b": 29.2, "acc": 57.4 },
+    { "family": "Proprietary", "model": "GPT-5", "mode": "fewshot", "shots": 4, "f1_f": 69.2, "f1_b": 30.9, "acc": 57.4 }
+  ],
+
+  "reasoning_effort": [
+    { "family": "Proprietary", "model": "GPT-5", "mode": "reasoning", "effort": "Low", "f1_f": 68.9, "f1_b": 34.4, "acc": 57.8 },
+    { "family": "Proprietary", "model": "GPT-5", "mode": "reasoning", "effort": "Medium", "f1_f": 68.7, "f1_b": 26.8, "acc": 56.1 },
+    { "family": "Proprietary", "model": "GPT-5", "mode": "reasoning", "effort": "High", "f1_f": 69.1, "f1_b": 25.7, "acc": 56.4 },
+
+    { "family": "Proprietary", "model": "Gemini-2.5-pro", "mode": "reasoning", "effort": "Low", "f1_f": 67.2, "f1_b": 52.1, "acc": 61.1 },
+    { "family": "Proprietary", "model": "Gemini-2.5-pro", "mode": "reasoning", "effort": "Medium", "f1_f": 65.9, "f1_b": 51.4, "acc": 59.9 },
+    { "family": "Proprietary", "model": "Gemini-2.5-pro", "mode": "reasoning", "effort": "High", "f1_f": 65.3, "f1_b": 49.0, "acc": 58.7 }
+  ],
+
+  "cot_manual": [
+    { "family": "Open Models", "model": "Qwen2.5VL-72B", "mode": "fewshot", "shots": 2, "cot": "No CoT", "f1_f": 64.2, "f1_b": 18.7, "acc": 50.2 },
+    { "family": "Open Models", "model": "Qwen2.5VL-72B", "mode": "fewshot", "shots": 2, "cot": "Simple", "f1_f": 67.3, "f1_b": 3.76, "acc": 51.2 },
+    { "family": "Open Models", "model": "Qwen2.5VL-72B", "mode": "fewshot", "shots": 2, "cot": "Multi-step", "f1_f": 66.7, "f1_b": 5.48, "acc": 50.7 }
+  ],
+
+  "sft": [
+    { "family": "Open Models", "model": "Qwen2-VL-7B", "mode": "sft", "train_examples": 0, "train_label": "Vanilla", "f1_f": 66.7, "f1_b": 0.0, "acc": 50.0 },
+    { "family": "Open Models", "model": "Qwen2-VL-7B", "mode": "sft", "train_examples": 1000, "train_label": "1000", "f1_f": 64.1, "f1_b": 12.2, "acc": 49.1 },
+    { "family": "Open Models", "model": "Qwen2-VL-7B", "mode": "sft", "train_examples": 3000, "train_label": "3000", "f1_f": 54.2, "f1_b": 48.2, "acc": 51.4 },
+    { "family": "Open Models", "model": "Qwen2-VL-7B", "mode": "sft", "train_examples": 5000, "train_label": "5000", "f1_f": 59.4, "f1_b": 31.6, "acc": 49.1 },
+
+    { "family": "Open Models", "model": "Qwen2.5VL-7B", "mode": "sft", "train_examples": 0, "train_label": "Vanilla", "f1_f": 63.0, "f1_b": 19.5, "acc": 49.3 },
+    { "family": "Open Models", "model": "Qwen2.5VL-7B", "mode": "sft", "train_examples": 1000, "train_label": "1000", "f1_f": 54.8, "f1_b": 43.5, "acc": 49.8 },
+    { "family": "Open Models", "model": "Qwen2.5VL-7B", "mode": "sft", "train_examples": 3000, "train_label": "3000", "f1_f": 54.5, "f1_b": 43.4, "acc": 49.5 },
+    { "family": "Open Models", "model": "Qwen2.5VL-7B", "mode": "sft", "train_examples": 5000, "train_label": "5000", "f1_f": 54.5, "f1_b": 43.4, "acc": 49.5 }
+  ]
+}

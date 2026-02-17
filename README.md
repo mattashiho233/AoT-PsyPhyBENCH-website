@@ -1,16 +1,30 @@
-# Nerfies
+# AoT-PsyPhyBENCH Website
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This repository contains the source code for the **AoT-PsyPhyBENCH** project website:
 
-If you find Nerfies useful for your work please cite:
-```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+- Paper: https://arxiv.org/abs/2510.26241
+- Code: https://github.com/mattashiho233/AoT-PsyPhyBENCH
+
+## Citation
+
+If you use this benchmark, please cite:
+
+```bibtex
+@misc{matta2025waydoestimeflow,
+  title={Which Way Does Time Flow? A Psychophysics-Grounded Evaluation for Vision-Language Models},
+  author={Shiho Matta and Lis Kanashiro Pereira and Peitao Han and Fei Cheng and Shigeru Kitazawa},
+  year={2025},
+  eprint={2510.26241},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2510.26241}
 }
 ```
 
-# Website License
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+## Acknowledgement / Template
+
+This website is adapted from the Nerfies website template:
+
+- https://github.com/nerfies/nerfies.github.io
+
+Template license: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
