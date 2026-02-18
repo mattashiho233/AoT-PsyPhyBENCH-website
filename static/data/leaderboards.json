@@ -1,7 +1,7 @@
 {
   "zero_shot": [
     { "family": "Baselines", "model": "Random", "mode": "baseline", "f1_f": null, "f1_b": null, "acc": 50.0 },
-    { "family": "Baselines", "model": "Human", "mode": "baseline", "f1_f": 99.0, "f1_b": 89.0, "acc": 89.2 },
+    { "family": "Baselines", "model": "Human", "mode": "baseline", "f1_f": 90.0, "f1_b": 88.0, "acc": 89.2 },
 
     { "family": "Open Models", "model": "Qwen2-VL-7B", "mode": "nonreasoning", "f1_f": 66.7, "f1_b": 0.0, "acc": 50.0 },
     { "family": "Open Models", "model": "Qwen2.5VL-7B", "mode": "nonreasoning", "f1_f": 63.0, "f1_b": 19.5, "acc": 49.3 },
